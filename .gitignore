@@ -1,0 +1,29 @@
+# Ignore the entire .idea folder by default
+.idea/
+
+# Except for specific files that might be useful to share (uncomment if desired)
+# !.idea/misc.xml
+# !.idea/modules.xml
+# !.idea/vcs.xml
+# !.idea/workspace.xml
+
+# Ignore common IDE-generated files and directories
+.idea/caches/
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/dictionaries/
+.idea/httpRequests/
+.idea/inspectionProfiles/
+.idea/jsLibraryMappings.xml
+.idea/shelf/
+.idea/sqlDataSources.xml
+.idea/tasks/
+.idea/runConfigurations/ # Consider if run configurations should be shared or kept local
+
+# Ignore build output directories within .idea if they exist
+.idea/**/out/
+.idea/**/target/
+.idea/**/build/
+
+.venv/
