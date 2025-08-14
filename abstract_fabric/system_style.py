@@ -1,8 +1,8 @@
 from abc import ABC, abstractmethod
 
-from abstract_fabric.components.button import *
-from abstract_fabric.components.window import *
-from abstract_fabric.components.menu import *
+from components.button import *
+from components.window import *
+from components.menu import *
 
 
 class ConcreteComponents(ABC):
